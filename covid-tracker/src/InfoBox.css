@@ -1,0 +1,40 @@
+.infoBox {
+    flex: 1;
+    cursor: pointer;
+}
+
+.Infobox :not(:last-child) {
+    margin-right: 15px;
+}
+
+.Infobox_cases {
+    color: rgb(233, 5, 5);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
+
+.infoboxgreen {
+    color: rgb(233, 5, 5);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
+
+.Infobox_total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    margin-top: 15px!important;
+    font-size: 0.8rem!important;
+}
+
+.infoBox--selected {
+    border-radius: 10px solid greenyellow !important;
+    background: red;
+    margin-top: 20px;
+    color: green !important;
+    color: rgb(115, 233, 5);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}

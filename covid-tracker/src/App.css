@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    /* height: 100vh; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 20px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.app_left {
+    flex: 0.9;
+}
+
+.app_graph {
+    flex-grow: 1;
+}
+
+.app_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.app_right .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.add_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.app_stats {
+    /* margin: auto; */
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:990px) {
+    .App {
+        flex-direction: column;
+    }
+}
